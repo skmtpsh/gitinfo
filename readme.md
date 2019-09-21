@@ -47,3 +47,11 @@ git dev-psh 分支修改的内容
 =======
 dev-psh add content
 >>>>>>> dev-psh
+
+git branch -a 查看远程分支
+
+	总结：一般我们就
+
+	1. 用git push --set-upstream origin branch_name 来在远程创建一个与本地branch_name同名的分支并跟踪；
+	2. 用git checkout --track origin/branch_name    来在本地创建一个与branch_name同名分支跟踪远程分支。
+
