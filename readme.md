@@ -21,6 +21,25 @@
   - git操作
   [git](https://segmentfault.com/a/1190000011673663)
 
-4. 回退历史测试
-5. 回退历史测试2
-6. 回退历史3
+### rm 和 git rm 的区别
+
+1. 执行下面代码
+```
+rm readme.md
+git status
+git checkout -- readme.md
+
+```
+是在工作区
+
+```
+git rm readme.md
+git status
+git reset HEAD readme.md
+
+```
+是在暂存区
+
+git rm 只能删除已经提交到版本库中的文件。其它状态的文件直接用这个命令操作是出错的。
+
+
