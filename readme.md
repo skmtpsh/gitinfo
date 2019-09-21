@@ -42,4 +42,8 @@ git reset HEAD readme.md
 
 git rm 只能删除已经提交到版本库中的文件。其它状态的文件直接用这个命令操作是出错的。
 
+<<<<<<< HEAD
 git dev-psh 分支修改的内容
+=======
+dev-psh add content
+>>>>>>> dev-psh
