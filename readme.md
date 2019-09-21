@@ -64,8 +64,10 @@ git branch -a 查看远程分支
 git checkout -b new_branch_name branch_name，这条指令本来是根据一个branch_name分支分出一个本地分支new_branch_name，但是如果所根据的分支branch_name是一个远程分支名，那么本地的分支会自动的track远程分支。建议跟踪分支和被跟踪远程分支同名。
 
 
+<<<<<<< Updated upstream
 ### git 提交 stash 测试
 
 
 
+git stash 保存
 
