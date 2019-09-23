@@ -68,4 +68,5 @@ git checkout -b new_branch_name branch_name，这条指令本来是根据一个b
 Create a new branch is quick and simple
 
 分支管理策略
-
+dev分支添加
+dev分支添加2
