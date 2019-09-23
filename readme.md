@@ -62,3 +62,8 @@ git branch -a 查看远程分支
  - 1）如果远程新建了一个分支，本地没有该分支，可以用git checkout --track origin/branch_name，这时候本地会新建一个分支名叫branch_name，会自动跟踪远程的同名分支branch_name。
  - 2）用上面中方法，得到的分支名永远和远程的分支名一样，如果想新建一个本地分支不同名字，同时跟踪一个远程分支可以利用。
 git checkout -b new_branch_name branch_name，这条指令本来是根据一个branch_name分支分出一个本地分支new_branch_name，但是如果所根据的分支branch_name是一个远程分支名，那么本地的分支会自动的track远程分支。建议跟踪分支和被跟踪远程分支同名。
+
+廖雪峰 branch 
+
+
+
