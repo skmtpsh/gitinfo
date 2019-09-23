@@ -65,5 +65,9 @@ git checkout -b new_branch_name branch_name，这条指令本来是根据一个b
 
 廖雪峰 branch 
 
+Create a new branch is quick and simple
+
+
+
 
 
