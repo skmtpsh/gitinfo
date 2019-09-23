@@ -57,7 +57,7 @@ git branch -a 查看远程分支
 1. 其实在从远程分支分出来的分支都是跟踪分支（track）,当对该分支进行push和pull时，如果该分支和远程分支同名git会知道推送到远程哪个分支，从哪个远程分支同步到本地分支。其实每次克隆一个仓库时，本地新建一个master分支来track远程origin/master。如果不同名，我们需要人为指定git push origin branch_name
 
 2. 如果本地新建了一个分支branch_name，但是在远程没有，这时候push和pull指令就无法确定该跟踪谁,一般来说我们都会使其跟踪远程同名分支，所以可以利用git push --set-upstream origin branch_name，这样就可以自动在远程创建一个branch_name分支，然后本地分支会track该分支。后面再对该分支使用push和pull就自动同步。无需再指定分支。
-
+Fast forward
 3. 跟踪远程分支
  - 1）如果远程新建了一个分支，本地没有该分支，可以用git checkout --track origin/branch_name，这时候本地会新建一个分支名叫branch_name，会自动跟踪远程的同名分支branch_name。
  - 2）用上面中方法，得到的分支名永远和远程的分支名一样，如果想新建一个本地分支不同名字，同时跟踪一个远程分支可以利用。
@@ -72,4 +72,7 @@ dev分支添加
 dev分支添加2
 
 dev 分支添加3
-dev fenzhitianji4
+dev fenzhitFast forwardFast forwardianji4
+
+stash 测试
+
