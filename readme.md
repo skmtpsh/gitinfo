@@ -78,3 +78,19 @@ stash 测试
 stash ceshi  2 isssuse
 
 
+本地仓库关联已有仓库
+
+```
+git remote add origin git@github.com:skmtpsh/gitinfo.git
+
+git pull origin master --allow-unrelated-histories 
+允许关联两个分支的历史分支
+
+git push --set-upstream origin master
+
+
+```
+
+
+
+
