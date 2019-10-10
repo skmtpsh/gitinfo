@@ -63,6 +63,7 @@ Fast forward
  - 2）用上面中方法，得到的分支名永远和远程的分支名一样，如果想新建一个本地分支不同名字，同时跟踪一个远程分支可以利用。
 git checkout -b new_branch_name branch_name，这条指令本来是根据一个branch_name分支分出一个本地分支new_branch_name，但是如果所根据的分支branch_name是一个远程分支名，那么本地的分支会自动的track远程分支。建议跟踪分支和被跟踪远程分支同名。
 
+<<<<<<< HEAD
 廖雪峰 branch 
 
 Create a new branch is quick and simple
@@ -93,5 +94,15 @@ git push --set-upstream origin master
 
 test dev
 
+Updated upstream
 
+### git 提交 stash 测试
+
+
+
+git stash 保存
+
+
+test dev-psh
+dev-psh
 
