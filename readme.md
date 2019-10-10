@@ -71,3 +71,6 @@ git checkout -b new_branch_name branch_name，这条指令本来是根据一个b
 
 git stash 保存
 
+
+test dev-psh
+
